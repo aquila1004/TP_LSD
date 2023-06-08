@@ -1,0 +1,34 @@
+v 3
+file . "product_selection_tb.vhd" "20230607024938.000" "20230606234945.411":
+  entity product_selection_tb at 1( 0) + 0 on 37;
+  architecture tb of product_selection_tb at 8( 142) + 0 on 38;
+  configuration cfg_tb_product_selection at 116( 3179) + 0 on 39;
+file . "change_calculation_tb.vhd" "20230607022442.000" "20230606232602.996":
+  entity change_calculation_tb at 1( 0) + 0 on 26;
+  architecture tb of change_calculation_tb at 8( 144) + 0 on 27;
+  configuration cfg_tb_change_calculation at 90( 2909) + 0 on 28;
+file . "coin_insertion_tb.vhd" "20230607021942.000" "20230606232008.653":
+  entity coin_insertion_tb at 1( 0) + 0 on 21;
+  architecture tb of coin_insertion_tb at 8( 136) + 0 on 22;
+  configuration cfg_tb_coin_insertion at 90( 2416) + 0 on 23;
+file . "coin_insertion.vhd" "20230607021956.000" "20230606232003.231":
+  entity coin_insertion at 1( 0) + 0 on 19;
+  architecture behavioral of coin_insertion at 15( 315) + 0 on 20;
+file . "change_calculation.vhd" "20230607005932.000" "20230606232553.118":
+  entity change_calculation at 1( 0) + 0 on 24;
+  architecture behavioral of change_calculation at 13( 291) + 0 on 25;
+file . "product_selection.vhd" "20230607010906.000" "20230606233555.859":
+  entity product_selection at 1( 0) + 0 on 29;
+  architecture rtl of product_selection at 14( 295) + 0 on 30;
+file . "state_machine_tb.vhd" "20230608011646.000" "20230607221727.229":
+  entity state_machine_tb at 3( 4) + 0 on 114;
+  architecture tb_arch of state_machine_tb at 10( 138) + 0 on 115;
+file . "venda.vhd" "20230607131646.000" "20230607215036.823":
+  entity venda at 1( 0) + 0 on 94;
+  architecture rtl of venda at 24( 559) + 0 on 95;
+file . "state_machine.vhd" "20230608010244.000" "20230607223250.701":
+  entity state_machine at 2( 2) + 0 on 118;
+  architecture rtl of state_machine at 24( 550) + 0 on 119;
+file . "vending_machine_tb.vhd" "20230607135824.000" "20230607130704.185":
+  entity vending_machine_tb at 1( 0) + 0 on 82;
+  architecture tb_arch of vending_machine_tb at 8( 138) + 0 on 83;

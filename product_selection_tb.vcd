@@ -1,0 +1,92 @@
+$date
+  Tue Jun 06 23:49:51 2023
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$var reg 1 ! pino1_tb $end
+$var reg 1 " pino2_tb $end
+$var reg 1 # pino3_tb $end
+$var reg 4 $ produto_preco_tb[3:0] $end
+$var reg 1 % tbclock $end
+$var reg 1 & tbsimended $end
+$scope module dut $end
+$var reg 1 ' pino1 $end
+$var reg 1 ( pino2 $end
+$var reg 1 ) pino3 $end
+$var reg 4 * produto_preco[3:0] $end
+$upscope $end
+$enddefinitions $end
+#0
+0!
+0"
+0#
+b0001 $
+0%
+0&
+0'
+0(
+0)
+b0001 *
+#500000000
+1%
+#1000000000
+1#
+b0010 $
+0%
+1)
+b0010 *
+#1500000000
+1%
+#2000000000
+1"
+0#
+b0011 $
+0%
+1(
+0)
+b0011 *
+#2500000000
+1%
+#3000000000
+1#
+b0101 $
+0%
+1)
+b0101 *
+#3500000000
+1%
+#4000000000
+1!
+0"
+0#
+b1010 $
+0%
+1'
+0(
+0)
+b1010 *
+#4500000000
+1%
+#5000000000
+1#
+b1111 $
+0%
+1)
+b1111 *
+#5500000000
+1%
+#6000000000
+1"
+b0000 $
+0%
+1(
+b0000 *
+#6500000000
+1%
+#7000000000
+0%
+1&

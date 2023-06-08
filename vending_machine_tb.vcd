@@ -1,0 +1,29 @@
+$date
+  Wed Jun 07 13:07:58 2023
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$var reg 3 ! select_pins_tb[2:0] $end
+$var reg 4 " coin_pins_tb[3:0] $end
+$var reg 1 # dispenser_tb $end
+$scope module dut $end
+$upscope $end
+$enddefinitions $end
+#0
+b000 !
+b0010 "
+U#
+#10000000
+b011 !
+b0000 "
+#20000000
+b010 !
+b1010 "
+#30000000
+b001 !
+b0010 "
+#40000000
